@@ -1,0 +1,33 @@
+name: netflix_clone
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  rive_splash_screen: ^0.1.0
+  page_transition: ^1.1.7+6
+  cached_network_image: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^1.1.8+4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash.riv
+    - assets/logo.png
+    - assets/logo-black-and-white.png
+
+flutter_native_splash:
+  color: "#000000"
+  android: true
