@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_clone/modules/home/widgets/widgets.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -15,6 +16,7 @@ class Home extends StatelessWidget {
             style: TextStyle(color: Colors.white),
           ),
         ),
+        bottomNavigationBar: CustomBottomNavigationBar(),
       ),
     );
   }
